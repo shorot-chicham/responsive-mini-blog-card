@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Montserrat:wght@500&family=PT+Serif&family=Poppins:wght@200&family=Sora:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+/* mini blog styles  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAF9;
+}
+
+.mini-blog-container {
+    max-width: 50vw;
+    margin: 25vh 0;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.mini-blog-img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.mini-blog-container h2{
+    color: #20293A;
+    margin-bottom: 0.8rem;
+}
+.mini-blog-container button {
+    border: none;
+    color: #883AE1;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #E6D6FC;
+    border-radius: 1.5rem;
+
+}
+
+.blog-description{
+    color: #6C727F;
+    margin-bottom: 0.8rem;
+    max-width: 70%;
+}
+
+hr{
+    color: #E5EAF0;
+    margin-bottom: 0.8rem;
+}
+
+.footer-text{
+    color: #a0a1a3;
+}
+
+/* Responsive mobile device  */
+
+@media screen and (max-width: 640px) {
+    .blog-description{
+        max-width: 100%;
+    }
+}
